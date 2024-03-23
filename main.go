@@ -11,6 +11,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	fmt.Printf("ddddd")
 	// Register the handler function for the root ("/") route
 	http.HandleFunc("/", helloHandler)
 

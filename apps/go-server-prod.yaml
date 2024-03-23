@@ -3,6 +3,10 @@ kind: Application
 metadata:
   name: 'go-server'
 spec:
+  server:
+    ingress:
+      enabled: true
+    insecure: true
   destination:
     name: 'in-cluster'
     namespace: 'prod'
