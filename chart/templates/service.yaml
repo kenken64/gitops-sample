@@ -7,5 +7,5 @@ spec:
     app: go-server
   ports:
     - protocol: TCP
-      port: 8080
+      port: 8082
       targetPort: 8080 # Match the port where your Go application is running
